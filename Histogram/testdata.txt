@@ -1,0 +1,2 @@
+C++ provides a simple, safe alternative to using char*s to handle strings. The C++ string class, part of the std namespace, allows you to manipulate strings safely.
+;
