@@ -9,7 +9,7 @@ int main() {
 
 	for (int i = 0; i != s.size(); ++i) {
 		string first = s.substr(0, 1);
-		string sub = s.substr(1, s.size());
+		string sub = s.substr(1, s.size()-1);
 		s = sub + first;
 		cout << s << endl;
 	}
