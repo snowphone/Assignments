@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26228.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Date", "Date\Date.vcxproj", "{923D0394-53D5-48ED-AA0A-9210D1DF01C3}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Random", "Random\Random.vcxproj", "{EA270180-2D01-45FE-9F49-90D837BF3927}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gambling", "Gambling\Gambling.vcxproj", "{6803A9F3-483F-4AB6-9B82-DFD0DC9D2F37}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringRotate", "StringRotate\StringRotate.vcxproj", "{8BD85D0C-3D45-4B12-8DC6-89F66D890C66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{6803A9F3-483F-4AB6-9B82-DFD0DC9D2F37}.Release|x64.Build.0 = Release|x64
 		{6803A9F3-483F-4AB6-9B82-DFD0DC9D2F37}.Release|x86.ActiveCfg = Release|Win32
 		{6803A9F3-483F-4AB6-9B82-DFD0DC9D2F37}.Release|x86.Build.0 = Release|Win32
+		{8BD85D0C-3D45-4B12-8DC6-89F66D890C66}.Debug|x64.ActiveCfg = Debug|x64
+		{8BD85D0C-3D45-4B12-8DC6-89F66D890C66}.Debug|x64.Build.0 = Debug|x64
+		{8BD85D0C-3D45-4B12-8DC6-89F66D890C66}.Debug|x86.ActiveCfg = Debug|Win32
+		{8BD85D0C-3D45-4B12-8DC6-89F66D890C66}.Debug|x86.Build.0 = Debug|Win32
+		{8BD85D0C-3D45-4B12-8DC6-89F66D890C66}.Release|x64.ActiveCfg = Release|x64
+		{8BD85D0C-3D45-4B12-8DC6-89F66D890C66}.Release|x64.Build.0 = Release|x64
+		{8BD85D0C-3D45-4B12-8DC6-89F66D890C66}.Release|x86.ActiveCfg = Release|Win32
+		{8BD85D0C-3D45-4B12-8DC6-89F66D890C66}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
