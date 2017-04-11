@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.10
+VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Date", "Date\Date.vcxproj", "{923D0394-53D5-48ED-AA0A-9210D1DF01C3}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaxNumber", "MaxNumber\MaxNumber.vcxproj", "{766CD678-BACC-461C-8487-4826056084F1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PersonManager", "PersonManager\PersonManager.vcxproj", "{9D1BAE1A-6DB9-4D0A-95D0-5CD531DB341F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyIntStack", "MyIntStack\MyIntStack.vcxproj", "{2AD189C1-4D8D-48A7-ABFF-DB4A1E45D0BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,14 @@ Global
 		{9D1BAE1A-6DB9-4D0A-95D0-5CD531DB341F}.Release|x64.Build.0 = Release|x64
 		{9D1BAE1A-6DB9-4D0A-95D0-5CD531DB341F}.Release|x86.ActiveCfg = Release|Win32
 		{9D1BAE1A-6DB9-4D0A-95D0-5CD531DB341F}.Release|x86.Build.0 = Release|Win32
+		{2AD189C1-4D8D-48A7-ABFF-DB4A1E45D0BD}.Debug|x64.ActiveCfg = Debug|x64
+		{2AD189C1-4D8D-48A7-ABFF-DB4A1E45D0BD}.Debug|x64.Build.0 = Debug|x64
+		{2AD189C1-4D8D-48A7-ABFF-DB4A1E45D0BD}.Debug|x86.ActiveCfg = Debug|Win32
+		{2AD189C1-4D8D-48A7-ABFF-DB4A1E45D0BD}.Debug|x86.Build.0 = Debug|Win32
+		{2AD189C1-4D8D-48A7-ABFF-DB4A1E45D0BD}.Release|x64.ActiveCfg = Release|x64
+		{2AD189C1-4D8D-48A7-ABFF-DB4A1E45D0BD}.Release|x64.Build.0 = Release|x64
+		{2AD189C1-4D8D-48A7-ABFF-DB4A1E45D0BD}.Release|x86.ActiveCfg = Release|Win32
+		{2AD189C1-4D8D-48A7-ABFF-DB4A1E45D0BD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
