@@ -2,11 +2,13 @@
 #include <cstring>
 using namespace std;
 //문제: shallow copy때문에 포인터 변수만 copy.
+//copy constructor 통해 해결
 class Person {
 	char * name;
 	int id;
 public: 
 	Person(int id, char* name);
+	Person(Person& person);
 	~Person();
 	void changeName(char *name);
 	void show() { cout << id << ',' << name << endl; }
@@ -16,6 +18,13 @@ Person::Person(int id, char* name) {
 	int len = strlen(name);
 	this->name = new char[len + 1];
 	strcpy(this->name, name);
+}
+//custom copy constructor
+Person::Person(Person & person) {
+	this->id = person.id;
+	this->name = new char[strlen(person.name) + 1];
+	strcpy(this->name, person.name);
+
 }
 Person::~Person() {
 	if(name)
