@@ -10,22 +10,8 @@ public:
 	bool pop(int &a);
 };
 
-int main() {
-	MyIntStack a;
-	for (int i = 0; i < 11; ++i) {
-		if (a.push(i))	cout << i << ' ';
-		else {
-			cout << endl << i + 1 << "번째 stack full" << endl;
-		}
-	}
-	for (int i = 0, n; i < 11; ++i) {
-		if (a.pop(n))	cout << n << ' ';
-		else	cout << endl << i + 1 << "번째 stack empty";
-	}
-	cout << endl;
-}
-
 bool MyIntStack::push(int n) {
+	//꽉 차지 않으면
 	if (tos < 9) {
 		p[++tos] = n;
 		return true;
@@ -40,4 +26,18 @@ bool MyIntStack::pop(int & a) {
 		a = p[tos--];
 		return true;
 	}
+}
+int main() {
+	MyIntStack a;
+	for (int i = 0; i < 11; ++i) {
+		if (a.push(i))	cout << i << ' ';
+		else {
+			cout << endl << i + 1 << "번째 stack full" << endl;
+		}
+	}
+	for (int i = 0, n; i < 11; ++i) {
+		if (a.pop(n))	cout << n << ' ';
+		else	cout << endl << i + 1 << "번째 stack empty";
+	}
+	cout << endl;
 }
