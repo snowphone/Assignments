@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26430.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Date", "Date\Date.vcxproj", "{923D0394-53D5-48ED-AA0A-9210D1DF01C3}"
 EndProject
@@ -28,6 +28,14 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DefaultParameter", "DefaultParameter\DefaultParameter.vcxproj", "{BBAAFFAC-232A-48D7-81EB-16BABD316ED8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Big", "Big\Big.vcxproj", "{53D6E15F-9FEC-410F-9E35-E2781068F94E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Static", "Static\Static.vcxproj", "{E5BEEEBF-8332-41AA-9EFC-2D185AD001B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "static_circle", "static_circle\static_circle.vcxproj", "{2278C12B-A935-4B5B-916C-AF89BB1CC9B4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Operator_power", "Operator_power\Operator_power.vcxproj", "{4817A057-6F0A-4508-9858-DDC967DA6E31}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "operator_complex", "operator_complex\operator_complex.vcxproj", "{BA839A5C-B8C4-4696-A253-7226BA3299BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +149,38 @@ Global
 		{53D6E15F-9FEC-410F-9E35-E2781068F94E}.Release|x64.Build.0 = Release|x64
 		{53D6E15F-9FEC-410F-9E35-E2781068F94E}.Release|x86.ActiveCfg = Release|Win32
 		{53D6E15F-9FEC-410F-9E35-E2781068F94E}.Release|x86.Build.0 = Release|Win32
+		{E5BEEEBF-8332-41AA-9EFC-2D185AD001B0}.Debug|x64.ActiveCfg = Debug|x64
+		{E5BEEEBF-8332-41AA-9EFC-2D185AD001B0}.Debug|x64.Build.0 = Debug|x64
+		{E5BEEEBF-8332-41AA-9EFC-2D185AD001B0}.Debug|x86.ActiveCfg = Debug|Win32
+		{E5BEEEBF-8332-41AA-9EFC-2D185AD001B0}.Debug|x86.Build.0 = Debug|Win32
+		{E5BEEEBF-8332-41AA-9EFC-2D185AD001B0}.Release|x64.ActiveCfg = Release|x64
+		{E5BEEEBF-8332-41AA-9EFC-2D185AD001B0}.Release|x64.Build.0 = Release|x64
+		{E5BEEEBF-8332-41AA-9EFC-2D185AD001B0}.Release|x86.ActiveCfg = Release|Win32
+		{E5BEEEBF-8332-41AA-9EFC-2D185AD001B0}.Release|x86.Build.0 = Release|Win32
+		{2278C12B-A935-4B5B-916C-AF89BB1CC9B4}.Debug|x64.ActiveCfg = Debug|x64
+		{2278C12B-A935-4B5B-916C-AF89BB1CC9B4}.Debug|x64.Build.0 = Debug|x64
+		{2278C12B-A935-4B5B-916C-AF89BB1CC9B4}.Debug|x86.ActiveCfg = Debug|Win32
+		{2278C12B-A935-4B5B-916C-AF89BB1CC9B4}.Debug|x86.Build.0 = Debug|Win32
+		{2278C12B-A935-4B5B-916C-AF89BB1CC9B4}.Release|x64.ActiveCfg = Release|x64
+		{2278C12B-A935-4B5B-916C-AF89BB1CC9B4}.Release|x64.Build.0 = Release|x64
+		{2278C12B-A935-4B5B-916C-AF89BB1CC9B4}.Release|x86.ActiveCfg = Release|Win32
+		{2278C12B-A935-4B5B-916C-AF89BB1CC9B4}.Release|x86.Build.0 = Release|Win32
+		{4817A057-6F0A-4508-9858-DDC967DA6E31}.Debug|x64.ActiveCfg = Debug|x64
+		{4817A057-6F0A-4508-9858-DDC967DA6E31}.Debug|x64.Build.0 = Debug|x64
+		{4817A057-6F0A-4508-9858-DDC967DA6E31}.Debug|x86.ActiveCfg = Debug|Win32
+		{4817A057-6F0A-4508-9858-DDC967DA6E31}.Debug|x86.Build.0 = Debug|Win32
+		{4817A057-6F0A-4508-9858-DDC967DA6E31}.Release|x64.ActiveCfg = Release|x64
+		{4817A057-6F0A-4508-9858-DDC967DA6E31}.Release|x64.Build.0 = Release|x64
+		{4817A057-6F0A-4508-9858-DDC967DA6E31}.Release|x86.ActiveCfg = Release|Win32
+		{4817A057-6F0A-4508-9858-DDC967DA6E31}.Release|x86.Build.0 = Release|Win32
+		{BA839A5C-B8C4-4696-A253-7226BA3299BA}.Debug|x64.ActiveCfg = Debug|x64
+		{BA839A5C-B8C4-4696-A253-7226BA3299BA}.Debug|x64.Build.0 = Debug|x64
+		{BA839A5C-B8C4-4696-A253-7226BA3299BA}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA839A5C-B8C4-4696-A253-7226BA3299BA}.Debug|x86.Build.0 = Debug|Win32
+		{BA839A5C-B8C4-4696-A253-7226BA3299BA}.Release|x64.ActiveCfg = Release|x64
+		{BA839A5C-B8C4-4696-A253-7226BA3299BA}.Release|x64.Build.0 = Release|x64
+		{BA839A5C-B8C4-4696-A253-7226BA3299BA}.Release|x86.ActiveCfg = Release|Win32
+		{BA839A5C-B8C4-4696-A253-7226BA3299BA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
